@@ -1,0 +1,1143 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28E332073736AE0E20B45500 /* Pods_WZXArchitectureTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 973D1EC183189646A1593294 /* Pods_WZXArchitectureTests.framework */; };
+		C16EEF56C0B4BC95CEF60C26 /* Pods_WZXArchitecture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F542062BBC66226F52007BE /* Pods_WZXArchitecture.framework */; };
+		C8FCE979970B7DB84026DDB1 /* Pods_WZXArchitectureUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF2C2AF16B31434350FF71C4 /* Pods_WZXArchitectureUITests.framework */; };
+		EA18BE821F13111200C97F87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA18BE801F13111200C97F87 /* Main.storyboard */; };
+		EA18BE841F13111200C97F87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA18BE831F13111200C97F87 /* Assets.xcassets */; };
+		EA18BE871F13111200C97F87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA18BE851F13111200C97F87 /* LaunchScreen.storyboard */; };
+		EA18BE921F13111200C97F87 /* WZXArchitectureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA18BE911F13111200C97F87 /* WZXArchitectureTests.m */; };
+		EA18BE9D1F13111200C97F87 /* WZXArchitectureUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA18BE9C1F13111200C97F87 /* WZXArchitectureUITests.m */; };
+		EA18BF261F13170B00C97F87 /* Foundation+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = EA18BEF11F13170A00C97F87 /* Foundation+Log.m */; };
+		EA18BF271F13170B00C97F87 /* WZXNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = EA18BEF31F13170A00C97F87 /* WZXNetworking.m */; };
+		EA18BF2B1F13170B00C97F87 /* BDImagePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = EA18BEFF1F13170B00C97F87 /* BDImagePicker.m */; };
+		EA18BF2C1F13170B00C97F87 /* CheckMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = EA18BF021F13170B00C97F87 /* CheckMethod.m */; };
+		EA18BF2D1F13170B00C97F87 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = EA18BF041F13170B00C97F87 /* Utils.m */; };
+		EA18BF2E1F13170B00C97F87 /* LoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EA18BF071F13170B00C97F87 /* LoginVC.m */; };
+		EA18BF2F1F13170B00C97F87 /* UserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = EA18BF0A1F13170B00C97F87 /* UserInfo.m */; };
+		EA18BF301F13170B00C97F87 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA18BF0D1F13170B00C97F87 /* AppDelegate.m */; };
+		EA18BF311F13170B00C97F87 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA18BF0E1F13170B00C97F87 /* main.m */; };
+		EA18BF351F131CD400C97F87 /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA18BF341F131CD400C97F87 /* TwoViewController.m */; };
+		EA18BF391F13232400C97F87 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = EA18BF381F13232400C97F87 /* UIView+Extension.m */; };
+		EA18BF3C1F132C7B00C97F87 /* MBProgressHUD+WZX.m in Sources */ = {isa = PBXBuildFile; fileRef = EA18BF3B1F132C7B00C97F87 /* MBProgressHUD+WZX.m */; };
+		EA18BF431F136B5500C97F87 /* WZXNavBar.m in Sources */ = {isa = PBXBuildFile; fileRef = EA18BF421F136B5500C97F87 /* WZXNavBar.m */; };
+		EA18BF461F13707D00C97F87 /* WZXNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA18BF451F13707D00C97F87 /* WZXNavigationController.m */; };
+		EA18BF4C1F13735000C97F87 /* WZXTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA18BF4B1F13735000C97F87 /* WZXTabBarController.m */; };
+		EA18BF4F1F13744F00C97F87 /* UIImage+WZXGImage.m in Sources */ = {isa = PBXBuildFile; fileRef = EA18BF4E1F13744F00C97F87 /* UIImage+WZXGImage.m */; };
+		EA4CEAEC1F2053FC00B331C6 /* NSString+WZXString.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4CEAEB1F2053FC00B331C6 /* NSString+WZXString.m */; };
+		EA6374091F25DF5400AE1FD5 /* AppDelegate+WZX.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6374081F25DF5400AE1FD5 /* AppDelegate+WZX.m */; };
+		EA7470961F21E4670012052B /* NSArray+WZX.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7470951F21E4670012052B /* NSArray+WZX.m */; };
+		EA74709C1F21F48B0012052B /* NSDictionary+WZX.m in Sources */ = {isa = PBXBuildFile; fileRef = EA74709B1F21F48B0012052B /* NSDictionary+WZX.m */; };
+		EAA2BE911F272950003EB237 /* WZXAccountViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA2BE901F272950003EB237 /* WZXAccountViewModel.m */; };
+		EAA2BE9D1F273EC2003EB237 /* WZXTwoViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA2BE9C1F273EC2003EB237 /* WZXTwoViewModel.m */; };
+		EAA2BEA01F27450A003EB237 /* UIColor+WZX.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA2BE9F1F27450A003EB237 /* UIColor+WZX.m */; };
+		EAA2BEA31F27520A003EB237 /* WZXCircleFriendsViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA2BEA21F27520A003EB237 /* WZXCircleFriendsViewModel.m */; };
+		EAAEBB0B1F26E96D003DB990 /* WZXFindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAAEBB0A1F26E96D003DB990 /* WZXFindViewController.m */; };
+		EAAEBB0E1F26E97F003DB990 /* WZXCircleFriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAAEBB0D1F26E97F003DB990 /* WZXCircleFriendsViewController.m */; };
+		EAAEBB111F26E991003DB990 /* WZXAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAAEBB101F26E991003DB990 /* WZXAccountViewController.m */; };
+		EAAEBB141F272288003DB990 /* WZXFindViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EAAEBB131F272288003DB990 /* WZXFindViewModel.m */; };
+		EAAEBB171F2722EB003DB990 /* WZXHomeViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = EAAEBB161F2722EB003DB990 /* WZXHomeViewController.mm */; };
+		EAAEBB1A1F272350003DB990 /* WZXHomeViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EAAEBB191F272350003DB990 /* WZXHomeViewModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA18BE8E1F13111200C97F87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA18BE6C1F13111200C97F87 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA18BE731F13111200C97F87;
+			remoteInfo = WZXArchitecture;
+		};
+		EA18BE991F13111200C97F87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA18BE6C1F13111200C97F87 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA18BE731F13111200C97F87;
+			remoteInfo = WZXArchitecture;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1DFAE8C80F416E9C0E3954FE /* Pods-WZXArchitectureUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WZXArchitectureUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WZXArchitectureUITests/Pods-WZXArchitectureUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2C35E41BC3B4AC864025FBDC /* Pods-WZXArchitectureTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WZXArchitectureTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WZXArchitectureTests/Pods-WZXArchitectureTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7B86FA7149C2FAE0B26BA24D /* Pods-WZXArchitecture.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WZXArchitecture.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WZXArchitecture/Pods-WZXArchitecture.debug.xcconfig"; sourceTree = "<group>"; };
+		7F542062BBC66226F52007BE /* Pods_WZXArchitecture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WZXArchitecture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		973D1EC183189646A1593294 /* Pods_WZXArchitectureTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WZXArchitectureTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6F32DDDF0C77DAE5B4D9757 /* Pods-WZXArchitecture.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WZXArchitecture.release.xcconfig"; path = "Pods/Target Support Files/Pods-WZXArchitecture/Pods-WZXArchitecture.release.xcconfig"; sourceTree = "<group>"; };
+		E3094017AE9127E8D9C1E2C7 /* Pods-WZXArchitectureTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WZXArchitectureTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WZXArchitectureTests/Pods-WZXArchitectureTests.release.xcconfig"; sourceTree = "<group>"; };
+		EA18BE741F13111200C97F87 /* WZXArchitecture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WZXArchitecture.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA18BE811F13111200C97F87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA18BE831F13111200C97F87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA18BE861F13111200C97F87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA18BE881F13111200C97F87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA18BE8D1F13111200C97F87 /* WZXArchitectureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WZXArchitectureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA18BE911F13111200C97F87 /* WZXArchitectureTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WZXArchitectureTests.m; sourceTree = "<group>"; };
+		EA18BE931F13111200C97F87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA18BE981F13111200C97F87 /* WZXArchitectureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WZXArchitectureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA18BE9C1F13111200C97F87 /* WZXArchitectureUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WZXArchitectureUITests.m; sourceTree = "<group>"; };
+		EA18BE9E1F13111200C97F87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA18BEF11F13170A00C97F87 /* Foundation+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Foundation+Log.m"; sourceTree = "<group>"; };
+		EA18BEF21F13170A00C97F87 /* WZXNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZXNetworking.h; sourceTree = "<group>"; };
+		EA18BEF31F13170A00C97F87 /* WZXNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZXNetworking.m; sourceTree = "<group>"; };
+		EA18BEFE1F13170B00C97F87 /* BDImagePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDImagePicker.h; sourceTree = "<group>"; };
+		EA18BEFF1F13170B00C97F87 /* BDImagePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDImagePicker.m; sourceTree = "<group>"; };
+		EA18BF011F13170B00C97F87 /* CheckMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckMethod.h; sourceTree = "<group>"; };
+		EA18BF021F13170B00C97F87 /* CheckMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckMethod.m; sourceTree = "<group>"; };
+		EA18BF031F13170B00C97F87 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		EA18BF041F13170B00C97F87 /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		EA18BF061F13170B00C97F87 /* LoginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginVC.h; sourceTree = "<group>"; };
+		EA18BF071F13170B00C97F87 /* LoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginVC.m; sourceTree = "<group>"; };
+		EA18BF091F13170B00C97F87 /* UserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfo.h; sourceTree = "<group>"; };
+		EA18BF0A1F13170B00C97F87 /* UserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfo.m; sourceTree = "<group>"; };
+		EA18BF0C1F13170B00C97F87 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EA18BF0D1F13170B00C97F87 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EA18BF0E1F13170B00C97F87 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA18BF321F131C0200C97F87 /* WZXArchitecture-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WZXArchitecture-Prefix.pch"; sourceTree = "<group>"; };
+		EA18BF331F131CD400C97F87 /* TwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
+		EA18BF341F131CD400C97F87 /* TwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
+		EA18BF371F13232400C97F87 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		EA18BF381F13232400C97F87 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		EA18BF3A1F132C7B00C97F87 /* MBProgressHUD+WZX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+WZX.h"; sourceTree = "<group>"; };
+		EA18BF3B1F132C7B00C97F87 /* MBProgressHUD+WZX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+WZX.m"; sourceTree = "<group>"; };
+		EA18BF411F136B5500C97F87 /* WZXNavBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZXNavBar.h; sourceTree = "<group>"; };
+		EA18BF421F136B5500C97F87 /* WZXNavBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZXNavBar.m; sourceTree = "<group>"; };
+		EA18BF441F13707D00C97F87 /* WZXNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZXNavigationController.h; sourceTree = "<group>"; };
+		EA18BF451F13707D00C97F87 /* WZXNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZXNavigationController.m; sourceTree = "<group>"; };
+		EA18BF4A1F13735000C97F87 /* WZXTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZXTabBarController.h; sourceTree = "<group>"; };
+		EA18BF4B1F13735000C97F87 /* WZXTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZXTabBarController.m; sourceTree = "<group>"; };
+		EA18BF4D1F13744F00C97F87 /* UIImage+WZXGImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+WZXGImage.h"; sourceTree = "<group>"; };
+		EA18BF4E1F13744F00C97F87 /* UIImage+WZXGImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+WZXGImage.m"; sourceTree = "<group>"; };
+		EA4CEAEA1F2053FC00B331C6 /* NSString+WZXString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+WZXString.h"; sourceTree = "<group>"; };
+		EA4CEAEB1F2053FC00B331C6 /* NSString+WZXString.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+WZXString.m"; sourceTree = "<group>"; };
+		EA6374071F25DF5400AE1FD5 /* AppDelegate+WZX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+WZX.h"; sourceTree = "<group>"; };
+		EA6374081F25DF5400AE1FD5 /* AppDelegate+WZX.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+WZX.m"; sourceTree = "<group>"; };
+		EA7470941F21E4670012052B /* NSArray+WZX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+WZX.h"; sourceTree = "<group>"; };
+		EA7470951F21E4670012052B /* NSArray+WZX.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+WZX.m"; sourceTree = "<group>"; };
+		EA74709A1F21F48B0012052B /* NSDictionary+WZX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+WZX.h"; sourceTree = "<group>"; };
+		EA74709B1F21F48B0012052B /* NSDictionary+WZX.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+WZX.m"; sourceTree = "<group>"; };
+		EAA2BE8F1F272950003EB237 /* WZXAccountViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WZXAccountViewModel.h; sourceTree = "<group>"; };
+		EAA2BE901F272950003EB237 /* WZXAccountViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WZXAccountViewModel.m; sourceTree = "<group>"; };
+		EAA2BE9B1F273EC2003EB237 /* WZXTwoViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WZXTwoViewModel.h; sourceTree = "<group>"; };
+		EAA2BE9C1F273EC2003EB237 /* WZXTwoViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WZXTwoViewModel.m; sourceTree = "<group>"; };
+		EAA2BE9E1F27450A003EB237 /* UIColor+WZX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+WZX.h"; sourceTree = "<group>"; };
+		EAA2BE9F1F27450A003EB237 /* UIColor+WZX.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+WZX.m"; sourceTree = "<group>"; };
+		EAA2BEA11F27520A003EB237 /* WZXCircleFriendsViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WZXCircleFriendsViewModel.h; sourceTree = "<group>"; };
+		EAA2BEA21F27520A003EB237 /* WZXCircleFriendsViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WZXCircleFriendsViewModel.m; sourceTree = "<group>"; };
+		EAAEBB091F26E96D003DB990 /* WZXFindViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WZXFindViewController.h; sourceTree = "<group>"; };
+		EAAEBB0A1F26E96D003DB990 /* WZXFindViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WZXFindViewController.m; sourceTree = "<group>"; };
+		EAAEBB0C1F26E97F003DB990 /* WZXCircleFriendsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WZXCircleFriendsViewController.h; sourceTree = "<group>"; };
+		EAAEBB0D1F26E97F003DB990 /* WZXCircleFriendsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WZXCircleFriendsViewController.m; sourceTree = "<group>"; };
+		EAAEBB0F1F26E991003DB990 /* WZXAccountViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WZXAccountViewController.h; sourceTree = "<group>"; };
+		EAAEBB101F26E991003DB990 /* WZXAccountViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WZXAccountViewController.m; sourceTree = "<group>"; };
+		EAAEBB121F272288003DB990 /* WZXFindViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WZXFindViewModel.h; sourceTree = "<group>"; };
+		EAAEBB131F272288003DB990 /* WZXFindViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WZXFindViewModel.m; sourceTree = "<group>"; };
+		EAAEBB151F2722EB003DB990 /* WZXHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WZXHomeViewController.h; sourceTree = "<group>"; };
+		EAAEBB161F2722EB003DB990 /* WZXHomeViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = WZXHomeViewController.mm; sourceTree = "<group>"; };
+		EAAEBB181F272350003DB990 /* WZXHomeViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WZXHomeViewModel.h; sourceTree = "<group>"; };
+		EAAEBB191F272350003DB990 /* WZXHomeViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WZXHomeViewModel.m; sourceTree = "<group>"; };
+		F04C43DA45DA1C0F057C46C9 /* Pods-WZXArchitectureUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WZXArchitectureUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WZXArchitectureUITests/Pods-WZXArchitectureUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FF2C2AF16B31434350FF71C4 /* Pods_WZXArchitectureUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WZXArchitectureUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA18BE711F13111200C97F87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C16EEF56C0B4BC95CEF60C26 /* Pods_WZXArchitecture.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA18BE8A1F13111200C97F87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28E332073736AE0E20B45500 /* Pods_WZXArchitectureTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA18BE951F13111200C97F87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8FCE979970B7DB84026DDB1 /* Pods_WZXArchitectureUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A2471A068D223CA104D6B7F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F542062BBC66226F52007BE /* Pods_WZXArchitecture.framework */,
+				973D1EC183189646A1593294 /* Pods_WZXArchitectureTests.framework */,
+				FF2C2AF16B31434350FF71C4 /* Pods_WZXArchitectureUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5F57F41F57CB798859597EF2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7B86FA7149C2FAE0B26BA24D /* Pods-WZXArchitecture.debug.xcconfig */,
+				C6F32DDDF0C77DAE5B4D9757 /* Pods-WZXArchitecture.release.xcconfig */,
+				2C35E41BC3B4AC864025FBDC /* Pods-WZXArchitectureTests.debug.xcconfig */,
+				E3094017AE9127E8D9C1E2C7 /* Pods-WZXArchitectureTests.release.xcconfig */,
+				F04C43DA45DA1C0F057C46C9 /* Pods-WZXArchitectureUITests.debug.xcconfig */,
+				1DFAE8C80F416E9C0E3954FE /* Pods-WZXArchitectureUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EA18BE6B1F13111200C97F87 = {
+			isa = PBXGroup;
+			children = (
+				EA18BE761F13111200C97F87 /* WZXArchitecture */,
+				EA18BE901F13111200C97F87 /* WZXArchitectureTests */,
+				EA18BE9B1F13111200C97F87 /* WZXArchitectureUITests */,
+				EA18BE751F13111200C97F87 /* Products */,
+				5F57F41F57CB798859597EF2 /* Pods */,
+				5A2471A068D223CA104D6B7F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EA18BE751F13111200C97F87 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA18BE741F13111200C97F87 /* WZXArchitecture.app */,
+				EA18BE8D1F13111200C97F87 /* WZXArchitectureTests.xctest */,
+				EA18BE981F13111200C97F87 /* WZXArchitectureUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA18BE761F13111200C97F87 /* WZXArchitecture */ = {
+			isa = PBXGroup;
+			children = (
+				EA18BEAA1F13170A00C97F87 /* Code */,
+				EA18BE771F13111200C97F87 /* Supporting Files */,
+			);
+			path = WZXArchitecture;
+			sourceTree = "<group>";
+		};
+		EA18BE771F13111200C97F87 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA18BE881F13111200C97F87 /* Info.plist */,
+				EA18BE851F13111200C97F87 /* LaunchScreen.storyboard */,
+				EA18BE831F13111200C97F87 /* Assets.xcassets */,
+				EA18BE801F13111200C97F87 /* Main.storyboard */,
+				EA18BF321F131C0200C97F87 /* WZXArchitecture-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA18BE901F13111200C97F87 /* WZXArchitectureTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA18BE911F13111200C97F87 /* WZXArchitectureTests.m */,
+				EA18BE931F13111200C97F87 /* Info.plist */,
+			);
+			path = WZXArchitectureTests;
+			sourceTree = "<group>";
+		};
+		EA18BE9B1F13111200C97F87 /* WZXArchitectureUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EA18BE9C1F13111200C97F87 /* WZXArchitectureUITests.m */,
+				EA18BE9E1F13111200C97F87 /* Info.plist */,
+			);
+			path = WZXArchitectureUITests;
+			sourceTree = "<group>";
+		};
+		EA18BEAA1F13170A00C97F87 /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				EA18BEAB1F13170A00C97F87 /* Account */,
+				EA18BEB01F13170A00C97F87 /* CircleFriends */,
+				EA18BEB51F13170A00C97F87 /* Find */,
+				EA18BEBA1F13170A00C97F87 /* Home */,
+				EA18BEEF1F13170A00C97F87 /* Main */,
+			);
+			path = Code;
+			sourceTree = "<group>";
+		};
+		EA18BEAB1F13170A00C97F87 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				EA18BEAC1F13170A00C97F87 /* Controller */,
+				EA18BEAD1F13170A00C97F87 /* Model */,
+				EA18BEAE1F13170A00C97F87 /* VIew */,
+				EA18BEAF1F13170A00C97F87 /* VIewModel */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		EA18BEAC1F13170A00C97F87 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EAAEBB0F1F26E991003DB990 /* WZXAccountViewController.h */,
+				EAAEBB101F26E991003DB990 /* WZXAccountViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EA18BEAD1F13170A00C97F87 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EA18BEAE1F13170A00C97F87 /* VIew */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = VIew;
+			sourceTree = "<group>";
+		};
+		EA18BEAF1F13170A00C97F87 /* VIewModel */ = {
+			isa = PBXGroup;
+			children = (
+				EAA2BE8F1F272950003EB237 /* WZXAccountViewModel.h */,
+				EAA2BE901F272950003EB237 /* WZXAccountViewModel.m */,
+			);
+			path = VIewModel;
+			sourceTree = "<group>";
+		};
+		EA18BEB01F13170A00C97F87 /* CircleFriends */ = {
+			isa = PBXGroup;
+			children = (
+				EA18BEB11F13170A00C97F87 /* Controller */,
+				EA18BEB21F13170A00C97F87 /* Model */,
+				EA18BEB31F13170A00C97F87 /* VIew */,
+				EA18BEB41F13170A00C97F87 /* VIewModel */,
+			);
+			path = CircleFriends;
+			sourceTree = "<group>";
+		};
+		EA18BEB11F13170A00C97F87 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EAAEBB0C1F26E97F003DB990 /* WZXCircleFriendsViewController.h */,
+				EAAEBB0D1F26E97F003DB990 /* WZXCircleFriendsViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EA18BEB21F13170A00C97F87 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EA18BEB31F13170A00C97F87 /* VIew */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = VIew;
+			sourceTree = "<group>";
+		};
+		EA18BEB41F13170A00C97F87 /* VIewModel */ = {
+			isa = PBXGroup;
+			children = (
+				EAA2BEA11F27520A003EB237 /* WZXCircleFriendsViewModel.h */,
+				EAA2BEA21F27520A003EB237 /* WZXCircleFriendsViewModel.m */,
+			);
+			path = VIewModel;
+			sourceTree = "<group>";
+		};
+		EA18BEB51F13170A00C97F87 /* Find */ = {
+			isa = PBXGroup;
+			children = (
+				EA18BEB61F13170A00C97F87 /* Controller */,
+				EA18BEB71F13170A00C97F87 /* Model */,
+				EA18BEB81F13170A00C97F87 /* VIew */,
+				EA18BEB91F13170A00C97F87 /* VIewModel */,
+			);
+			path = Find;
+			sourceTree = "<group>";
+		};
+		EA18BEB61F13170A00C97F87 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EAAEBB091F26E96D003DB990 /* WZXFindViewController.h */,
+				EAAEBB0A1F26E96D003DB990 /* WZXFindViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EA18BEB71F13170A00C97F87 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EA18BEB81F13170A00C97F87 /* VIew */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = VIew;
+			sourceTree = "<group>";
+		};
+		EA18BEB91F13170A00C97F87 /* VIewModel */ = {
+			isa = PBXGroup;
+			children = (
+				EAAEBB121F272288003DB990 /* WZXFindViewModel.h */,
+				EAAEBB131F272288003DB990 /* WZXFindViewModel.m */,
+			);
+			path = VIewModel;
+			sourceTree = "<group>";
+		};
+		EA18BEBA1F13170A00C97F87 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				EA18BEBB1F13170A00C97F87 /* Controller */,
+				EA18BEC51F13170A00C97F87 /* Model */,
+				EA18BECC1F13170A00C97F87 /* VIew */,
+				EA18BEE61F13170A00C97F87 /* VIewModel */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		EA18BEBB1F13170A00C97F87 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EAAEBB151F2722EB003DB990 /* WZXHomeViewController.h */,
+				EAAEBB161F2722EB003DB990 /* WZXHomeViewController.mm */,
+				EA18BF331F131CD400C97F87 /* TwoViewController.h */,
+				EA18BF341F131CD400C97F87 /* TwoViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EA18BEC51F13170A00C97F87 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EA18BECC1F13170A00C97F87 /* VIew */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = VIew;
+			sourceTree = "<group>";
+		};
+		EA18BEE61F13170A00C97F87 /* VIewModel */ = {
+			isa = PBXGroup;
+			children = (
+				EAAEBB181F272350003DB990 /* WZXHomeViewModel.h */,
+				EAAEBB191F272350003DB990 /* WZXHomeViewModel.m */,
+				EAA2BE9B1F273EC2003EB237 /* WZXTwoViewModel.h */,
+				EAA2BE9C1F273EC2003EB237 /* WZXTwoViewModel.m */,
+			);
+			path = VIewModel;
+			sourceTree = "<group>";
+		};
+		EA18BEEF1F13170A00C97F87 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				EA18BEF01F13170A00C97F87 /* Category */,
+				EA18BEF41F13170A00C97F87 /* Controller */,
+				EA18BEFA1F13170A00C97F87 /* Lib */,
+				EA18BF051F13170B00C97F87 /* Login */,
+				EA18BF081F13170B00C97F87 /* Model */,
+				EA18BF0B1F13170B00C97F87 /* Other */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		EA18BEF01F13170A00C97F87 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				EA18BEF11F13170A00C97F87 /* Foundation+Log.m */,
+				EA18BEF21F13170A00C97F87 /* WZXNetworking.h */,
+				EA18BEF31F13170A00C97F87 /* WZXNetworking.m */,
+				EA18BF371F13232400C97F87 /* UIView+Extension.h */,
+				EA18BF381F13232400C97F87 /* UIView+Extension.m */,
+				EA18BF3A1F132C7B00C97F87 /* MBProgressHUD+WZX.h */,
+				EA18BF3B1F132C7B00C97F87 /* MBProgressHUD+WZX.m */,
+				EA18BF4D1F13744F00C97F87 /* UIImage+WZXGImage.h */,
+				EA18BF4E1F13744F00C97F87 /* UIImage+WZXGImage.m */,
+				EA4CEAEA1F2053FC00B331C6 /* NSString+WZXString.h */,
+				EA4CEAEB1F2053FC00B331C6 /* NSString+WZXString.m */,
+				EA7470941F21E4670012052B /* NSArray+WZX.h */,
+				EA7470951F21E4670012052B /* NSArray+WZX.m */,
+				EA74709A1F21F48B0012052B /* NSDictionary+WZX.h */,
+				EA74709B1F21F48B0012052B /* NSDictionary+WZX.m */,
+				EAA2BE9E1F27450A003EB237 /* UIColor+WZX.h */,
+				EAA2BE9F1F27450A003EB237 /* UIColor+WZX.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		EA18BEF41F13170A00C97F87 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EA18BF411F136B5500C97F87 /* WZXNavBar.h */,
+				EA18BF421F136B5500C97F87 /* WZXNavBar.m */,
+				EA18BF441F13707D00C97F87 /* WZXNavigationController.h */,
+				EA18BF451F13707D00C97F87 /* WZXNavigationController.m */,
+				EA18BF4A1F13735000C97F87 /* WZXTabBarController.h */,
+				EA18BF4B1F13735000C97F87 /* WZXTabBarController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EA18BEFA1F13170A00C97F87 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				EA18BEFD1F13170B00C97F87 /* BDImagePicker */,
+				EA18BF001F13170B00C97F87 /* Method */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		EA18BEFD1F13170B00C97F87 /* BDImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				EA18BEFE1F13170B00C97F87 /* BDImagePicker.h */,
+				EA18BEFF1F13170B00C97F87 /* BDImagePicker.m */,
+			);
+			path = BDImagePicker;
+			sourceTree = "<group>";
+		};
+		EA18BF001F13170B00C97F87 /* Method */ = {
+			isa = PBXGroup;
+			children = (
+				EA18BF011F13170B00C97F87 /* CheckMethod.h */,
+				EA18BF021F13170B00C97F87 /* CheckMethod.m */,
+				EA18BF031F13170B00C97F87 /* Utils.h */,
+				EA18BF041F13170B00C97F87 /* Utils.m */,
+			);
+			path = Method;
+			sourceTree = "<group>";
+		};
+		EA18BF051F13170B00C97F87 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				EA18BF061F13170B00C97F87 /* LoginVC.h */,
+				EA18BF071F13170B00C97F87 /* LoginVC.m */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		EA18BF081F13170B00C97F87 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EA18BF091F13170B00C97F87 /* UserInfo.h */,
+				EA18BF0A1F13170B00C97F87 /* UserInfo.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EA18BF0B1F13170B00C97F87 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				EA18BF0C1F13170B00C97F87 /* AppDelegate.h */,
+				EA18BF0D1F13170B00C97F87 /* AppDelegate.m */,
+				EA6374071F25DF5400AE1FD5 /* AppDelegate+WZX.h */,
+				EA6374081F25DF5400AE1FD5 /* AppDelegate+WZX.m */,
+				EA18BF0E1F13170B00C97F87 /* main.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA18BE731F13111200C97F87 /* WZXArchitecture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA18BEA11F13111200C97F87 /* Build configuration list for PBXNativeTarget "WZXArchitecture" */;
+			buildPhases = (
+				3080F50C2F2BC75F2F624738 /* [CP] Check Pods Manifest.lock */,
+				EA18BE701F13111200C97F87 /* Sources */,
+				EA18BE711F13111200C97F87 /* Frameworks */,
+				EA18BE721F13111200C97F87 /* Resources */,
+				CFA8573470FF822BD378AADE /* [CP] Embed Pods Frameworks */,
+				B0843A5CE607A3D074A9A258 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WZXArchitecture;
+			productName = WZXArchitecture;
+			productReference = EA18BE741F13111200C97F87 /* WZXArchitecture.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA18BE8C1F13111200C97F87 /* WZXArchitectureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA18BEA41F13111200C97F87 /* Build configuration list for PBXNativeTarget "WZXArchitectureTests" */;
+			buildPhases = (
+				CD419ABC0109C9CCFFFEA7C2 /* [CP] Check Pods Manifest.lock */,
+				EA18BE891F13111200C97F87 /* Sources */,
+				EA18BE8A1F13111200C97F87 /* Frameworks */,
+				EA18BE8B1F13111200C97F87 /* Resources */,
+				823AEA3CC03919D8C7176EE6 /* [CP] Embed Pods Frameworks */,
+				2677ED7D8BD61DC99C039520 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA18BE8F1F13111200C97F87 /* PBXTargetDependency */,
+			);
+			name = WZXArchitectureTests;
+			productName = WZXArchitectureTests;
+			productReference = EA18BE8D1F13111200C97F87 /* WZXArchitectureTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EA18BE971F13111200C97F87 /* WZXArchitectureUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA18BEA71F13111200C97F87 /* Build configuration list for PBXNativeTarget "WZXArchitectureUITests" */;
+			buildPhases = (
+				03C7F47738C313161207472C /* [CP] Check Pods Manifest.lock */,
+				EA18BE941F13111200C97F87 /* Sources */,
+				EA18BE951F13111200C97F87 /* Frameworks */,
+				EA18BE961F13111200C97F87 /* Resources */,
+				F9684BC64DD1DCDCD1DCAD76 /* [CP] Embed Pods Frameworks */,
+				E397ADBD8A1685E750751BF5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA18BE9A1F13111200C97F87 /* PBXTargetDependency */,
+			);
+			name = WZXArchitectureUITests;
+			productName = WZXArchitectureUITests;
+			productReference = EA18BE981F13111200C97F87 /* WZXArchitectureUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA18BE6C1F13111200C97F87 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WZX;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = wuzhuoxuan;
+				TargetAttributes = {
+					EA18BE731F13111200C97F87 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = SFSFH6NHYB;
+						ProvisioningStyle = Automatic;
+					};
+					EA18BE8C1F13111200C97F87 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EA18BE731F13111200C97F87;
+					};
+					EA18BE971F13111200C97F87 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EA18BE731F13111200C97F87;
+					};
+				};
+			};
+			buildConfigurationList = EA18BE6F1F13111200C97F87 /* Build configuration list for PBXProject "WZXArchitecture" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA18BE6B1F13111200C97F87;
+			productRefGroup = EA18BE751F13111200C97F87 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA18BE731F13111200C97F87 /* WZXArchitecture */,
+				EA18BE8C1F13111200C97F87 /* WZXArchitectureTests */,
+				EA18BE971F13111200C97F87 /* WZXArchitectureUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA18BE721F13111200C97F87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA18BE871F13111200C97F87 /* LaunchScreen.storyboard in Resources */,
+				EA18BE841F13111200C97F87 /* Assets.xcassets in Resources */,
+				EA18BE821F13111200C97F87 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA18BE8B1F13111200C97F87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA18BE961F13111200C97F87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03C7F47738C313161207472C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2677ED7D8BD61DC99C039520 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WZXArchitectureTests/Pods-WZXArchitectureTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3080F50C2F2BC75F2F624738 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		823AEA3CC03919D8C7176EE6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WZXArchitectureTests/Pods-WZXArchitectureTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0843A5CE607A3D074A9A258 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WZXArchitecture/Pods-WZXArchitecture-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD419ABC0109C9CCFFFEA7C2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CFA8573470FF822BD378AADE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WZXArchitecture/Pods-WZXArchitecture-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E397ADBD8A1685E750751BF5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WZXArchitectureUITests/Pods-WZXArchitectureUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9684BC64DD1DCDCD1DCAD76 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WZXArchitectureUITests/Pods-WZXArchitectureUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA18BE701F13111200C97F87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAAEBB0E1F26E97F003DB990 /* WZXCircleFriendsViewController.m in Sources */,
+				EA6374091F25DF5400AE1FD5 /* AppDelegate+WZX.m in Sources */,
+				EA18BF391F13232400C97F87 /* UIView+Extension.m in Sources */,
+				EAAEBB111F26E991003DB990 /* WZXAccountViewController.m in Sources */,
+				EA18BF351F131CD400C97F87 /* TwoViewController.m in Sources */,
+				EA18BF311F13170B00C97F87 /* main.m in Sources */,
+				EAA2BE911F272950003EB237 /* WZXAccountViewModel.m in Sources */,
+				EA18BF2B1F13170B00C97F87 /* BDImagePicker.m in Sources */,
+				EA18BF3C1F132C7B00C97F87 /* MBProgressHUD+WZX.m in Sources */,
+				EA7470961F21E4670012052B /* NSArray+WZX.m in Sources */,
+				EA18BF301F13170B00C97F87 /* AppDelegate.m in Sources */,
+				EA18BF4F1F13744F00C97F87 /* UIImage+WZXGImage.m in Sources */,
+				EAA2BEA01F27450A003EB237 /* UIColor+WZX.m in Sources */,
+				EAA2BE9D1F273EC2003EB237 /* WZXTwoViewModel.m in Sources */,
+				EA18BF271F13170B00C97F87 /* WZXNetworking.m in Sources */,
+				EAAEBB0B1F26E96D003DB990 /* WZXFindViewController.m in Sources */,
+				EA4CEAEC1F2053FC00B331C6 /* NSString+WZXString.m in Sources */,
+				EA18BF431F136B5500C97F87 /* WZXNavBar.m in Sources */,
+				EA18BF461F13707D00C97F87 /* WZXNavigationController.m in Sources */,
+				EA18BF2C1F13170B00C97F87 /* CheckMethod.m in Sources */,
+				EA18BF2F1F13170B00C97F87 /* UserInfo.m in Sources */,
+				EA74709C1F21F48B0012052B /* NSDictionary+WZX.m in Sources */,
+				EA18BF4C1F13735000C97F87 /* WZXTabBarController.m in Sources */,
+				EAAEBB141F272288003DB990 /* WZXFindViewModel.m in Sources */,
+				EA18BF2D1F13170B00C97F87 /* Utils.m in Sources */,
+				EA18BF2E1F13170B00C97F87 /* LoginVC.m in Sources */,
+				EA18BF261F13170B00C97F87 /* Foundation+Log.m in Sources */,
+				EAA2BEA31F27520A003EB237 /* WZXCircleFriendsViewModel.m in Sources */,
+				EAAEBB1A1F272350003DB990 /* WZXHomeViewModel.m in Sources */,
+				EAAEBB171F2722EB003DB990 /* WZXHomeViewController.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA18BE891F13111200C97F87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA18BE921F13111200C97F87 /* WZXArchitectureTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA18BE941F13111200C97F87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA18BE9D1F13111200C97F87 /* WZXArchitectureUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA18BE8F1F13111200C97F87 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA18BE731F13111200C97F87 /* WZXArchitecture */;
+			targetProxy = EA18BE8E1F13111200C97F87 /* PBXContainerItemProxy */;
+		};
+		EA18BE9A1F13111200C97F87 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA18BE731F13111200C97F87 /* WZXArchitecture */;
+			targetProxy = EA18BE991F13111200C97F87 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA18BE801F13111200C97F87 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA18BE811F13111200C97F87 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA18BE851F13111200C97F87 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA18BE861F13111200C97F87 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA18BE9F1F13111200C97F87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EA18BEA01F13111200C97F87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA18BEA21F13111200C97F87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B86FA7149C2FAE0B26BA24D /* Pods-WZXArchitecture.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = SFSFH6NHYB;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/WZXArchitecture/WZXArchitecture-Prefix.pch";
+				INFOPLIST_FILE = WZXArchitecture/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Architecture.com;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		EA18BEA31F13111200C97F87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6F32DDDF0C77DAE5B4D9757 /* Pods-WZXArchitecture.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = SFSFH6NHYB;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/WZXArchitecture/WZXArchitecture-Prefix.pch";
+				INFOPLIST_FILE = WZXArchitecture/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Architecture.com;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		EA18BEA51F13111200C97F87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C35E41BC3B4AC864025FBDC /* Pods-WZXArchitectureTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WZXArchitectureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wuzhuoxuan.com.WZXArchitectureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WZXArchitecture.app/WZXArchitecture";
+			};
+			name = Debug;
+		};
+		EA18BEA61F13111200C97F87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3094017AE9127E8D9C1E2C7 /* Pods-WZXArchitectureTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WZXArchitectureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wuzhuoxuan.com.WZXArchitectureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WZXArchitecture.app/WZXArchitecture";
+			};
+			name = Release;
+		};
+		EA18BEA81F13111200C97F87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F04C43DA45DA1C0F057C46C9 /* Pods-WZXArchitectureUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = WZXArchitectureUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wuzhuoxuan.com.WZXArchitectureUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WZXArchitecture;
+			};
+			name = Debug;
+		};
+		EA18BEA91F13111200C97F87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DFAE8C80F416E9C0E3954FE /* Pods-WZXArchitectureUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = WZXArchitectureUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wuzhuoxuan.com.WZXArchitectureUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WZXArchitecture;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA18BE6F1F13111200C97F87 /* Build configuration list for PBXProject "WZXArchitecture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA18BE9F1F13111200C97F87 /* Debug */,
+				EA18BEA01F13111200C97F87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA18BEA11F13111200C97F87 /* Build configuration list for PBXNativeTarget "WZXArchitecture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA18BEA21F13111200C97F87 /* Debug */,
+				EA18BEA31F13111200C97F87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA18BEA41F13111200C97F87 /* Build configuration list for PBXNativeTarget "WZXArchitectureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA18BEA51F13111200C97F87 /* Debug */,
+				EA18BEA61F13111200C97F87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA18BEA71F13111200C97F87 /* Build configuration list for PBXNativeTarget "WZXArchitectureUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA18BEA81F13111200C97F87 /* Debug */,
+				EA18BEA91F13111200C97F87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA18BE6C1F13111200C97F87 /* Project object */;
+}

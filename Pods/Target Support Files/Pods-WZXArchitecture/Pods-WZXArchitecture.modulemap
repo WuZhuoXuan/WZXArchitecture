@@ -1,0 +1,6 @@
+framework module Pods_WZXArchitecture {
+  umbrella header "Pods-WZXArchitecture-umbrella.h"
+
+  export *
+  module * { export * }
+}
