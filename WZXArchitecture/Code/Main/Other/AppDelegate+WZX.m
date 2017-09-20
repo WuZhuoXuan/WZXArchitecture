@@ -34,13 +34,24 @@
     self.window.rootViewController = rootVC;
     [self.window makeKeyAndVisible];
     
-    //    navigation Push规则
+    // navigation Push规则
     [[JLRoutes globalRoutes] addRoute:@"/NaviPush/:controller" handler:^BOOL(NSDictionary<NSString *,NSString *> * _Nonnull parameters) {
         
         NSLog(@"parameters==%@",parameters);
         UIViewController *v = [[NSClassFromString(parameters[@"controller"]) alloc] init];
         [self paramToVc:v param:parameters];
         [[self currentViewController] pushViewController:v animated:YES];
+        return YES;
+    }];
+    
+    
+    // 模态窗口规则
+    [[JLRoutes globalRoutes] addRoute:@"/PresentModal/:controller" handler:^BOOL(NSDictionary<NSString *,NSString *> * _Nonnull parameters) {
+        
+        NSLog(@"parameters==%@",parameters);
+        UIViewController *v = [[NSClassFromString(parameters[@"controller"]) alloc] init];
+        [self paramToVc:v param:parameters];
+        [[self currentViewController].visibleViewController presentViewController:v animated:YES completion:^{}];
         return YES;
     }];
 }

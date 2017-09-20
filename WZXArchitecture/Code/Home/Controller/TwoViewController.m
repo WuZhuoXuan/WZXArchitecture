@@ -49,9 +49,8 @@
     [signal subscribeNext:^(id x) {
         
         NSLog(@"%@",x);
-        NSString *customURL = [NSString stringWithFormat:@"WZXArchitecture://NaviPush/TwoViewController?name=home&userId=%d&age=18",[self.userId integerValue]-10];
-        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:customURL]];
-        
+        NSString *customURL = [NSString stringWithFormat:@"WZXArchitecture://NaviPush/TwoViewController?name=home&userId=%ld&age=18",[self.userId integerValue]-10];
+        [[UIApplication sharedApplication]openURL:[NSURL URLWithString:customURL] options:@{UIApplicationOpenURLOptionsSourceApplicationKey : @YES} completionHandler:nil];        
     }];
 }
 
