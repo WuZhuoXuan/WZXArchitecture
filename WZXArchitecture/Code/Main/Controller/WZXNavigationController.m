@@ -63,19 +63,10 @@
         //        viewController.navigationItem.leftBarButtonItem = [UIBarButtonItem customBackItemWithTarget:self action:@selector(back)];
         viewController.hidesBottomBarWhenPushed = YES; // 隐藏底部的工具条
         
-        UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
-        [btn setImage:[UIImage imageNamed:@"setback"] forState:UIControlStateNormal];
-        [btn setImage:[UIImage imageNamed:@"setback"] forState:UIControlStateHighlighted];
+        UIImage *selectedImage=[UIImage imageNamed: @"setback"];
+        selectedImage = [selectedImage imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
         
-        [btn sizeToFit];
-        // 让按钮内部的所有内容左对齐
-        btn.contentHorizontalAlignment = UIControlContentHorizontalAlignmentLeft;
-        
-        //设置内边距，让按钮靠近屏幕边缘
-        btn.contentEdgeInsets = UIEdgeInsetsMake(0, -10, 0, 0);
-        [btn addTarget:self action:@selector(back) forControlEvents:UIControlEventTouchUpInside];
-        
-        viewController.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:btn];
+        viewController.navigationItem.leftBarButtonItem =[[UIBarButtonItem alloc]initWithImage:selectedImage style:UIBarButtonItemStylePlain target:self action:@selector(back)];
         
         
     }
