@@ -44,8 +44,7 @@
         
         NSLog(@"%@",x);
         NSString *customURL = @"WZXArchitecture://NaviPush/TwoViewController?userId=88888&age=18";
-        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:customURL]];
-        
+       [[UIApplication sharedApplication]openURL:[NSURL URLWithString:customURL] options:@{UIApplicationOpenURLOptionsSourceApplicationKey : @YES} completionHandler:nil];        
     }];
 }
 - (void)didReceiveMemoryWarning {
