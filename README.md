@@ -43,7 +43,7 @@
 * 3.初步搭建界面
  * 1.初始化项目
   
-```
+```objectivec
 - (void)registerRoutes{
 
     WZXTabBarController *rootVC = [WZXTabBarController  tabBarControllerWithAddChildVCsBlock:^(WZXTabBarController *tabBarC) {
@@ -74,7 +74,7 @@
 ```
   * 2.路由跳转
 
-```
+```objectivec
 -(void)paramToVc:(UIViewController *) v param:(NSDictionary<NSString *,NSString *> *)parameters{
     //        runtime将参数传递至需要跳转的控制器
     unsigned int outCount = 0;
@@ -108,7 +108,7 @@
     return [[JLRoutes globalRoutes] routeURL:url];
 }
 ```
-```
+```objectivec
 
 - (void)urlClick{
     
@@ -141,7 +141,7 @@
 
 * 4.全局宏定义
 
-```
+```objectivec
 //获取系统对象
 #define KApplication        [UIApplication sharedApplication]
 #define KAppWindow          [UIApplication sharedApplication].delegate.window
